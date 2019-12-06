@@ -5,7 +5,7 @@ import {
   StFormField,
   StTextInput,
   StTextArea,
-} from "../components/layout/contentBody"
+} from "./layout/contentBody"
 import { BlackBtn } from "./layout/contentBody"
 import { FaPaperPlane } from "react-icons/fa"
 import moment from "moment"

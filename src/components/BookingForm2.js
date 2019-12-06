@@ -11,11 +11,11 @@ import {
   StDrop,
   CalInstructions,
   FlexRow,
-} from "../components/layout/contentBody"
+} from "./layout/contentBody"
 import { BlackBtn } from "./layout/contentBody"
 import { FaPaperPlane, FaCalendarAlt } from "react-icons/fa"
 import moment from "moment"
-import { CloseBtn } from "../components/layout/contentBody"
+import { CloseBtn } from "./layout/contentBody"
 import { getFirebase } from "../fireb"
 import axios from "axios"
 

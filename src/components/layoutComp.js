@@ -7,7 +7,7 @@ import MainNav from "./nav/mainNav"
 import Logo from "./nav/logo"
 import { graphql, useStaticQuery } from "gatsby"
 // import { Helmet } from "react-helmet"
-import SEO from './SEO';
+import SEO from './seo';
 import "./layoutComp.css"
 // import unitsData from "../Data/unitsData"
 

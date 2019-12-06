@@ -1,8 +1,8 @@
 import React from 'react';
 import {Wrapper, Body, ContentBlock50, ContentBlock100, CenterBlock} from '../components/layout/contentBody';
 import Div100vh from 'react-div-100vh';
-import noPageImg from '../Assets/Images/404.svg';
-// import aboutImg from '../Assets/Images/about_us.jpg';
+import noPageImg from '../assets/images/404.svg';
+// import aboutImg from '../assets/images/about_us.jpg';
 import styled, {css} from 'styled-components';
 import {fadeInLt, fadeInRt} from '../animations';
 // import SwipeScrollWrapper from '../components/layout/swipeScrollWrapper';

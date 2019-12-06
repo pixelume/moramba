@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 import {Wrapper, Body, CenterBlock, ContentBlock100, ContentBlock50} from '../components/layout/contentBody';
 import Div100vh from 'react-div-100vh';
 import SwipeScrollWrapper from '../components/layout/swipeScrollWrapper';
-import ContactForm from '../components/ContactForm';
+import ContactForm from '../components/contactForm';
 import styled, {css} from 'styled-components';
 import {fadeInLt, fadeInRt} from '../animations';
 import { DataContext } from '../components/layoutComp';
