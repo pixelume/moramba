@@ -212,7 +212,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/assets/images`,
+        path: `${__dirname}/src/assets/images/`,
       },
     },
     {
@@ -224,7 +224,7 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon: `./src/assets/images/square-logo.svg`,
+        icon: `${__dirname}/src/assets/images/square-logo.svg`,
       },
     },
     `gatsby-plugin-offline`,
