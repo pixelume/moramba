@@ -1,6 +1,6 @@
 import React, { useContext } from "react"
 import styled from "styled-components"
-import homeIcn from "../../assets/images/logo-v5-optimised.svg"
+import homeIcn from "../../Assets/Images/logo-v5-optimised.svg"
 import { DataContext } from "../layoutComp"
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
