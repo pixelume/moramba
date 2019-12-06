@@ -192,13 +192,13 @@ module.exports = {
     {
       resolve: "gatsby-plugin-transition-link",
       options: {
-        layout: require.resolve(`./src/components/layoutComp.js`),
+        layout: require.resolve(`${__dirname}/src/components/layoutComp.js`),
       },
     },
     {
       resolve: `gatsby-plugin-typography`,
       options: {
-        pathToConfigModule: `src/utils/typography`,
+        pathToConfigModule: `${__dirname}/src/utils/typography`,
         omitGoogleFont: true,
       },
     },
