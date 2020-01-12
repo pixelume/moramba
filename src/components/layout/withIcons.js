@@ -30,7 +30,7 @@ export default ({icons}) => {
                 if (icons.fireplace) return <TooltipIcn key={`icn${idx}`} title="Built-in Braai"><FaFire/></TooltipIcn>
                 break;
             case "pool":
-                if (icons.pool) return <TooltipIcn key={`icn${idx}`} title="Swimming Pool"><FaSwimmer/></TooltipIcn>
+                if (icons.pool && icons.pool !== "0") return <TooltipIcn key={`icn${idx}`} title="Swimming Pool"><FaSwimmer/></TooltipIcn>
                 break;
             default:
                 return null;
